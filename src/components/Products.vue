@@ -25,6 +25,7 @@
           Sample text. Click to select the text box. Click again or double click
           to start editing the text.
         </p>
+        <SocialMedias :color="color"/>
       </div>
     </div>
   </div>
@@ -39,8 +40,13 @@ import product5 from "../assets/images/product5.jpeg";
 import product6 from "../assets/images/product6.jpeg";
 import product7 from "../assets/images/product7.jpeg";
 import product8 from "../assets/images/product8.jpg";
+import SocialMedias from "./Shared/SocialMedias.vue";
+
 export default {
   name: "Products",
+  components: {
+    SocialMedias,
+  },
   data() {
     return {
       products: [
@@ -69,6 +75,7 @@ export default {
           image: product8,
         },
       ],
+      color: "primaryGray"
     };
   },
 };
