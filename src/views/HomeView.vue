@@ -3,6 +3,7 @@
     <hero />
     <elevate />
     <elegance />
+    <strategy />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Hero from '../components/Hero.vue';
 import Elevate from '../components/Elevate.vue';
 import Elegance from '../components/Elegance.vue';
+import Strategy from '../components/Strategy.vue';
 
 export default {
   name: 'HomeView',
   components: {
     Hero,
     Elevate,
-    Elegance
+    Elegance,
+    Strategy
   }
 }
 </script>

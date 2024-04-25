@@ -23,9 +23,9 @@
         of scales.
       </p>
       <RoundedButton
-        color="primaryBlack"
-        background="primaryWhite"
-        hoverBackground="primaryGray"
+        :color="primaryBlack"
+        :background="primaryWhite"
+        :hoverBackground="primaryGray"
       >
         Book Now
       </RoundedButton>
@@ -43,6 +43,9 @@ export default {
   data() {
     return {
       backgroundImage: background,
+      primaryBlack: "primaryBlack",
+      primaryWhite: "primaryWhite",
+      primaryGray: "primaryGray",
     };
   },
 };
