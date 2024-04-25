@@ -6,6 +6,7 @@
     <strategy />
     <statistics />
     <services />
+    <products />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Elegance from '../components/Elegance.vue';
 import Strategy from '../components/Strategy.vue';
 import Statistics from '../components/Statistics.vue';
 import Services from '../components/Services.vue';
+import Products from '../components/Products.vue';
 
 export default {
   name: 'HomeView',
@@ -25,7 +27,8 @@ export default {
     Elegance,
     Strategy,
     Statistics,
-    Services
+    Services,
+    Products
   }
 }
 </script>
