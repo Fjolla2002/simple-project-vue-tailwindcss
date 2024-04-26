@@ -25,7 +25,7 @@
           Sample text. Click to select the text box. Click again or double click
           to start editing the text.
         </p>
-        <SocialMedias :color="color"/>
+        <SocialMedias :color="socialMeadiasColor" />
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ export default {
           image: product8,
         },
       ],
-      color: "primaryGray"
+      socialMeadiasColor: "primaryGray",
     };
   },
 };
