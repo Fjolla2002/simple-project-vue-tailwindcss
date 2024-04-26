@@ -1,10 +1,12 @@
 <template>
   <div class="bg-primaryWhite">
-    <Wrapper>
+    <wrapper>
       <div
         class="lg:w-1/2 w-full flex flex-col items-center justify-center text-center"
       >
-        <Title>We are the experts in quality business strategy</Title>
+        <section-title>
+          We are the experts in quality business strategy
+        </section-title>
         <img
           src="@/assets/images/strategy1.jpeg"
           alt="strategy1"
@@ -23,34 +25,36 @@
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum
           </p>
-          <RoundedButton
-            :color="primaryBlack"
-            :background="backgroundGray"
-            :hoverBackground="primaryGray"
+          <rounded-button
+            :color="btnTextColor"
+            :background="btnBackground"
+            :hoverBackground="btnHoverBackground"
           >
             Learn more
-          </RoundedButton>
+          </rounded-button>
         </div>
       </div>
-    </Wrapper>
+    </wrapper>
   </div>
 </template>
 
 <script>
 import Wrapper from "./Shared/TwoPiecesWrapper.vue";
-import Title from "./Shared/Title.vue";
+import SectionTitle from "./Shared/Title.vue";
 import RoundedButton from "./Shared/RoundedButton.vue";
+
 export default {
+  name: "Strategy",
   components: {
     Wrapper,
-    Title,
+    SectionTitle,
     RoundedButton,
   },
   data() {
     return {
-      primaryBlack: "primaryBlack",
-      backgroundGray: "backgroundGray",
-      primaryGray: "primaryGray",
+      btnTextColor: "primaryBlack",
+      btnBackground: "backgroundGray",
+      btnHoverBackground: "primaryGray",
     };
   },
 };
