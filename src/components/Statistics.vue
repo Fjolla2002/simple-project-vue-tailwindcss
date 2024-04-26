@@ -39,6 +39,7 @@ import Wrapper from "./Shared/TwoPiecesWrapper.vue";
 import SectionTitle from "./Shared/Title.vue";
 import Subtitle from "./Shared/Subtitle.vue";
 import StatCard from "./Shared/StatCard.vue";
+import { data } from "../assets/data/dummyData";
 
 export default {
   name: "Statistics",
@@ -50,24 +51,7 @@ export default {
   },
   data() {
     return {
-      stats: [
-        {
-          count: 50,
-          text: "Sample text. Click to select the text box. Click again or double click to start editing the text.",
-        },
-        {
-          count: 17,
-          text: "Sample text. Click to select the text box. Click again or double click to start editing the text.",
-        },
-        {
-          count: 20,
-          text: "Sample text. Click to select the text box. Click again or double click to start editing the text.",
-        },
-        {
-          count: 13,
-          text: "Sample text. Click to select the text box. Click again or double click to start editing the text.",
-        },
-      ],
+      stats: data.statistics,
     };
   },
 };

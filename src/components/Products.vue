@@ -32,15 +32,8 @@
 </template>
 
 <script>
-import product1 from "../assets/images/product1.jpeg";
-import product2 from "../assets/images/product2.jpeg";
-import product3 from "../assets/images/product3.jpeg";
-import product4 from "../assets/images/product4.jpeg";
-import product5 from "../assets/images/product5.jpeg";
-import product6 from "../assets/images/product6.jpeg";
-import product7 from "../assets/images/product7.jpeg";
-import product8 from "../assets/images/product8.jpg";
 import SocialMedias from "./Shared/SocialMedias.vue";
+import { data } from "../assets/data/dummyData";
 
 export default {
   name: "Products",
@@ -49,32 +42,7 @@ export default {
   },
   data() {
     return {
-      products: [
-        {
-          image: product1,
-        },
-        {
-          image: product2,
-        },
-        {
-          image: product3,
-        },
-        {
-          image: product4,
-        },
-        {
-          image: product5,
-        },
-        {
-          image: product6,
-        },
-        {
-          image: product7,
-        },
-        {
-          image: product8,
-        },
-      ],
+      products: data.products,
       socialMeadiasColor: "primaryGray",
     };
   },

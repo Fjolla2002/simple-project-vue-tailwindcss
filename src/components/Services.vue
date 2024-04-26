@@ -24,8 +24,7 @@
 <script>
 import SectionTitle from "./Shared/Title.vue";
 import ServiceCard from "./Shared/ServiceCard.vue";
-import service1 from "../assets/images/service1.jpeg";
-import service2 from "../assets/images/service2.jpeg";
+import { data } from "../assets/data/dummyData";
 
 export default {
   name: "Services",
@@ -35,18 +34,7 @@ export default {
   },
   data() {
     return {
-      services: [
-        {
-          image: service1,
-          title: "For business owners",
-          desc: "Sample text. Click to select the text box. Click again or double click to start editing the text.",
-        },
-        {
-          image: service2,
-          title: "For bloggers",
-          desc: "Sample text. Click to select the text box. Click again or double click to start editing the text.",
-        },
-      ],
+      services: data.services,
     };
   },
 };
