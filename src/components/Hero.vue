@@ -22,13 +22,13 @@
         award-winning architectural projects and urban strategies at a variety
         of scales.
       </p>
-      <RoundedButton
-        :color="primaryBlack"
-        :background="primaryWhite"
-        :hoverBackground="primaryGray"
+      <rounded-button
+        :color="btnTextColor"
+        :background="btnBackground"
+        :hoverBackground="btnHoverBackground"
       >
         Book Now
-      </RoundedButton>
+      </rounded-button>
     </div>
   </div>
 </template>
@@ -43,9 +43,9 @@ export default {
   data() {
     return {
       backgroundImage: background,
-      primaryBlack: "primaryBlack",
-      primaryWhite: "primaryWhite",
-      primaryGray: "primaryGray",
+      btnTextColor: "primaryBlack",
+      btnBackground: "primaryWhite",
+      btnHoverBackground: "primaryGray",
     };
   },
 };
