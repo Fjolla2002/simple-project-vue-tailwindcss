@@ -2,10 +2,10 @@
   <div class="bg-primaryWhite">
     <wrapper>
       <div class="lg:w-1/2 w-full flex flex-col items-start justify-center">
-        <Title>We Elevate the Beauty of Your Home</Title>
-        <Subtitle>
+        <section-title>We Elevate the Beauty of Your Home</section-title>
+        <subtitle>
           We created our own Digital Transformation Methodology
-        </Subtitle>
+        </subtitle>
         <p class="mt-6 text-justify font-openSans">
           We want to understand who your clients are, how digital-savvy and
           engaged your employees are, what you are already doing to build a
@@ -13,13 +13,13 @@
           at us. To do this, we gather insights from your employees, we
           interview key stakeholders and thoroughly look into your organisation.
         </p>
-        <router-link
-          to="tel:0123456789"
+        <a
+          :href="`tel:0123456789`"
           class="mt-6 py-4 flex items-center text-2xl font-semibold text-secondaryBlack hover:text-primaryGray transition-colors duration-300 ease-in-out"
         >
           <font-awesome-icon :icon="['fab', 'whatsapp']" />
           <span class="ml-2">Chat Now</span>
-        </router-link>
+        </a>
       </div>
       <div class="lg:w-1/2 w-full relative">
         <div
@@ -30,18 +30,18 @@
           </h3>
         </div>
         <div class="flex justify-end">
-            <img
+          <img
             src="@/assets/images/elevate1.jpeg"
             alt="elevate2"
             class="lg:w-1/2 w-7/12 lg:h-80 object-cover"
-            />
+          />
         </div>
         <div class="flex justify-start">
-            <img
+          <img
             src="@/assets/images/elevate2.jpeg"
             alt="elevate2"
             class="lg:w-1/2 w-7/12 lg:h-80 object-cover"
-            />
+          />
         </div>
       </div>
     </wrapper>
@@ -50,7 +50,7 @@
 
 <script>
 import Wrapper from "../components/Shared/TwoPiecesWrapper.vue";
-import Title from "./Shared/Title.vue";
+import SectionTitle from "./Shared/Title.vue";
 import Subtitle from "./Shared/Subtitle.vue";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -61,7 +61,7 @@ library.add(faWhatsapp);
 export default {
   components: {
     Wrapper,
-    Title,
+    SectionTitle,
     Subtitle,
     FontAwesomeIcon,
   },
