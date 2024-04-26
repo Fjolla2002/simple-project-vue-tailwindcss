@@ -2,9 +2,9 @@
   <div class="bg-backgroundGray">
     <div class="w-11/12 lg:w-3/5 mx-auto py-32 h-full flex flex-col">
       <div class="lg:w-3/4 w-full flex justify-start">
-        <Title
-          >We dwelling elegance do shutters appetite yourself diverted</Title
-        >
+        <section-title>
+          We dwelling elegance do shutters appetite yourself diverted
+        </section-title>
       </div>
       <div class="w-full mt-8 flex lg:justify-end justify-start font-openSans">
         <div class="lg:w-1/2 w-full">
@@ -30,11 +30,12 @@
 </template>
 
 <script>
-import Title from "./Shared/Title.vue";
+import SectionTitle from "./Shared/Title.vue";
 
 export default {
+  name: "Elegance",
   components: {
-    Title,
+    SectionTitle,
   },
 };
 </script>
