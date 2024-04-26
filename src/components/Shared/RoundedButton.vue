@@ -9,21 +9,16 @@
 
 <script>
 export default {
+  name: "RoundedButton",
   props: {
-    color: {
-      type: String,
-    },
-    background: {
-      type: String,
-    },
-    hoverBackground: {
-      type: String,
-    },
+    color: String,
+    background: String,
+    hoverBackground: String,
   },
   computed: {
     style() {
-      return `text-${this.color} bg-${this.background} hover:bg-${this.hoverBackground}`
-    }
-  }
+      return `text-${this.color} bg-${this.background} hover:bg-${this.hoverBackground}`;
+    },
+  },
 };
 </script>
