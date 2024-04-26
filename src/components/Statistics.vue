@@ -1,12 +1,14 @@
 <template>
   <div class="bg-primaryWhite">
-    <Wrapper>
+    <wrapper>
       <div class="lg:w-1/2 w-full">
         <div class="flex-col items-center justify-start">
-          <Title> We are the best agency to improve your deals </Title>
-          <Subtitle>
+          <section-title>
+            We are the best agency to improve your deals
+          </section-title>
+          <subtitle>
             We work directly for our clients and put client’s interests first.
-          </Subtitle>
+          </subtitle>
           <p class="mt-6 text-base text-paragraphGray">
             Everything that can be necessary to create and manage new projects
             (startups) in modern conditions. From development of concept,
@@ -20,7 +22,7 @@
         <div
           class="h-full bg-backgroundGray grid lg:grid-cols-2 lg:grid-rows-2 grid-cols-1 grid-rows-4"
         >
-          <StatCard
+          <stat-card
             v-for="(stat, index) in stats"
             :key="index"
             :count="stat.count"
@@ -28,13 +30,13 @@
           />
         </div>
       </div>
-    </Wrapper>
+    </wrapper>
   </div>
 </template>
 
 <script>
 import Wrapper from "./Shared/TwoPiecesWrapper.vue";
-import Title from "./Shared/Title.vue";
+import SectionTitle from "./Shared/Title.vue";
 import Subtitle from "./Shared/Subtitle.vue";
 import StatCard from "./Shared/StatCard.vue";
 
@@ -42,7 +44,7 @@ export default {
   name: "Statistics",
   components: {
     Wrapper,
-    Title,
+    SectionTitle,
     Subtitle,
     StatCard,
   },
