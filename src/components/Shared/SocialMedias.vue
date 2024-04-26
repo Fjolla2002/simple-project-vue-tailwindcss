@@ -1,7 +1,7 @@
 <template>
   <div
     class="flex items-center justify-between lg:w-1/5 w-2/5 mt-8 text-2xl"
-    :class="`text-${color}`"
+    :class="textColor"
   >
     <font-awesome-icon
       :icon="['fab', 'facebook-f']"
@@ -37,5 +37,10 @@ export default {
   props: {
     color: String,
   },
+  computed: {
+    textColor() {
+      return `text-${this.color}`
+    }
+  }
 };
 </script>
