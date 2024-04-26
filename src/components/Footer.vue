@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-backgroundGray">
+  <div class="bg-backgroundGray" id="contact">
     <wrapper>
       <div class="lg:w-1/2 w-full">
         <div class="flex flex-col items-start justify-start">
