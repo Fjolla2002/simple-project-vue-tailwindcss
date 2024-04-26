@@ -1,9 +1,9 @@
 <template>
   <div class="bg-backgroundGray">
-    <Wrapper>
+    <wrapper>
       <div class="lg:w-1/2 w-full">
         <div class="flex flex-col items-start justify-start">
-          <Title>Contact Us</Title>
+          <section-title>Contact Us</section-title>
           <p class="text-xl text-primaryBlack font-openSans mt-10">
             New York, 4140 Parker Rd. <br />
             Allentown, <br />
@@ -12,18 +12,16 @@
           <div
             class="flex flex-col items-start justify-start mt-8 font-ubuntu text-2xl font-bold"
           >
-            <router-link to="tel:+15556567789" class="text-primaryGray">
+            <a :href="`tel:+15556567789`" class="text-primaryGray">
               +1 (555) 656 77 89
-            </router-link>
-            <router-link to="mailto:info@sample.com">
-              info@sample.com
-            </router-link>
+            </a>
+            <a :href="`mailto:info@sample.com`"> info@sample.com </a>
           </div>
         </div>
       </div>
       <div class="lg:w-1/2 w-full lg:mt-0 mt-20">
         <div class="flex flex-col items-start justify-start">
-          <Title>Sign me up!</Title>
+          <section-title>Sign me up!</section-title>
           <p class="mt-8">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -44,28 +42,28 @@
               SUBMIT
             </button>
           </div>
-          <SocialMedias :color="color" />
+          <social-medias :color="socialMediasColor" />
         </div>
       </div>
-    </Wrapper>
+    </wrapper>
   </div>
 </template>
 
 <script>
 import Wrapper from "./Shared/TwoPiecesWrapper.vue";
-import Title from "./Shared/Title.vue";
+import SectionTitle from "./Shared/Title.vue";
 import SocialMedias from "./Shared/SocialMedias.vue";
 
 export default {
   name: "Footer",
   components: {
     Wrapper,
-    Title,
+    SectionTitle,
     SocialMedias,
   },
   data() {
     return {
-      color: "primaryBlack",
+      socialMediasColor: "primaryBlack",
     };
   },
 };
