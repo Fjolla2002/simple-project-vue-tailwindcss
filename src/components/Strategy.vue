@@ -10,7 +10,7 @@
         <img
           src="@/assets/images/strategy1.jpeg"
           alt="strategy1"
-          className="mt-12 lg:w-4/5 w-10/12 h-[400px]"
+          className="mt-12 lg:w-3/5 w-10/12 h-[400px]"
         />
       </div>
       <div class="lg:w-1/2 w-10/12">
@@ -18,7 +18,7 @@
           <img
             src="@/assets/images/strategy2.jpeg"
             alt="strategy1"
-            className="mt-12 w-4/5 h-[350px]"
+            className="mt-12 w-3/5 h-[350px]"
           />
           <p class="mt-12 text-base text-primaryBlack font-openSans">
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
