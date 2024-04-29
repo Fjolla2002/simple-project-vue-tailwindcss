@@ -37,7 +37,7 @@
               class="lg:w-3/4 px-4 py-2 w-full"
             />
             <button
-              class="bg-primaryGray px-8 py-2 lg:w-1/4 w-full lg:mt-0 mt-4 text-base border-none uppercase font-bold font-openSans text-primaryBlack hover:bg-secondaryGray transition-all duration-300 ease-in-out"
+              class="bg-primaryGray py-2 lg:w-1/4 w-full lg:mt-0 mt-4 text-base border-none uppercase font-bold font-openSans text-primaryBlack hover:bg-secondaryGray transition-all duration-300 ease-in-out"
             >
               SUBMIT
             </button>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center justify-between lg:w-1/5 w-2/5 mt-8 text-2xl"
+    class="flex items-center justify-between lg:w-2/5 w-full mt-8 text-2xl"
     :class="textColor"
   >
     <font-awesome-icon
