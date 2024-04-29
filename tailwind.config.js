@@ -19,9 +19,6 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
-      grayscale: {
-        50: "50%",
-      },
     },
   },
   plugins: [],
