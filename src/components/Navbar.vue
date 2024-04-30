@@ -1,12 +1,14 @@
 <template>
   <div class="w-full mx-auto bg-primaryWhite py-6">
-    <div class="w-11/12 lg:w-3/5 mx-auto flex items-center justify-center">
-      <font-awesome-icon
-        icon="bars"
-        class="text-2xl cursor-pointer text-primaryBlack hover:text-primaryGray transition-all duration-300 ease-in-out"
-        @click="toggleMenu"
-      />
-    </div>
+    <container>
+      <div class="flex items-center justify-center">
+        <font-awesome-icon
+          icon="bars"
+          class="text-2xl cursor-pointer text-primaryBlack hover:text-primaryGray transition-all duration-300 ease-in-out"
+          @click="toggleMenu"
+        />
+      </div>
+    </container>
     <div
       class="w-full min-h-screen absolute top-0 left-0 z-50 bg-black/[.7]"
       :class="{ hidden: !navbarVisible }"
@@ -40,6 +42,7 @@
 </template>
 
 <script>
+import Container from "./Shared/Container.vue";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
@@ -48,6 +51,7 @@ library.add(faBars, faX);
 
 export default {
   components: {
+    Container,
     FontAwesomeIcon,
   },
   data() {
