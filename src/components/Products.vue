@@ -14,7 +14,7 @@
           <img
             :src="product.image"
             alt="product"
-            class="w-full h-full object-container hover:grayscale-[50%] transition-all duration-300 ease-in-out cursor-pointer"
+            class="w-full h-full hover:grayscale-[50%] transition-all duration-300 ease-in-out cursor-pointer"
           />
         </div>
       </div>

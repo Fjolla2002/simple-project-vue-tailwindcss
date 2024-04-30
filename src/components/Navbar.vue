@@ -8,7 +8,7 @@
       />
     </div>
     <div
-      class="w-full min-h-screen absolute top-0 left-0 z-50 overflow-hidden bg-black/[.7]"
+      class="w-full min-h-screen absolute top-0 left-0 z-50 bg-black/[.7]"
       :class="{ hidden: !navbarVisible }"
     >
       <span
@@ -26,7 +26,7 @@
           />
           <ul class="text-center lg:text-xl text-2xl mt-12">
             <li class="my-2"><a href="/" @click="toggleMenu">Home</a></li>
-            <li class="my-">
+            <li class="my-4">
               <a href="/#statistics" @click="toggleMenu">About</a>
             </li>
             <li class="my-2">
