@@ -18,7 +18,7 @@
           <img
             src="@/assets/images/strategy2.jpeg"
             alt="strategy1"
-            className="mt-12 w-3/5 h-[350px]"
+            className="mt-12 lg:w-3/5 w-4/5 h-[350px]"
           />
           <p class="mt-12 text-base text-primaryBlack font-openSans">
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

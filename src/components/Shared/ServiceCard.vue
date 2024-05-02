@@ -3,7 +3,7 @@
     <img
       :src="image"
       alt="service"
-      class="w-full lg:h-[330px] h-[530px] object-cover"
+      class="w-full lg:h-[330px] h-[330px] object-cover"
     />
     <h5 class="text-2xl text-primaryBlack font-ubuntu font-bold my-8">
       {{ title }}

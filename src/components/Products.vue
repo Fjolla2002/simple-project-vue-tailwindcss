@@ -6,7 +6,7 @@
           class="w-full grid lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-2 grid-cols-1 gap-4"
         >
           <div
-            class="w-full md:h-[300px] h-[400px]"
+            class="w-full h-[300px]"
             v-for="(product, index) in products"
             :key="index"
           >

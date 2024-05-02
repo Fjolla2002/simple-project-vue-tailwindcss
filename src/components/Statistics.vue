@@ -18,7 +18,7 @@
           </p>
         </div>
       </div>
-      <div class="lg:w-1/2 w-3/5 lg:mt-0 mt-20">
+      <div class="lg:w-1/2 w-4/5 lg:mt-0 mt-20">
         <div
           class="h-full bg-backgroundGray grid lg:grid-cols-2 lg:grid-rows-2 grid-cols-1 grid-rows-4"
         >
