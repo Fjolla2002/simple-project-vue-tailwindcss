@@ -24,7 +24,9 @@
             Sample text. Click to select the text box. Click again or double
             click to start editing the text.
           </p>
-          <SocialMedias :color="socialMeadiasColor" />
+          <div class="lg:w-full w-1/2 flex items-center justify-center">
+            <SocialMedias :color="socialMeadiasColor" />
+          </div>
         </div>
       </div>
     </container>
