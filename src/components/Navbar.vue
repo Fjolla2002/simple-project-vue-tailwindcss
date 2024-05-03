@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full mx-auto bg-primaryWhite py-6">
+  <div class="w-full mx-auto bg-primaryWhite py-6 fixed shadow-sm shadow-primaryGray z-50">
     <container>
       <div class="flex items-center justify-center">
         <font-awesome-icon

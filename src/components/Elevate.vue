@@ -23,7 +23,7 @@
       </div>
       <div class="lg:w-1/2 w-full lg:px-0 md:px-28 relative">
         <div
-          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primaryGray lg:w-1/3 h-1/4 w-2/5 text-5xl flex items-center justify-center z-50"
+          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primaryGray lg:w-1/3 h-1/4 w-2/5 text-5xl flex items-center justify-center z-40"
         >
           <h3 class="font-montserrat text-center text-primaryBlack font-bold">
             30k
