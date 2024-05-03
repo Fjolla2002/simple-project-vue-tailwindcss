@@ -39,8 +39,8 @@ export default {
   },
   computed: {
     textColor() {
-      return `text-${this.color}`
-    }
-  }
+      return `text-${this.color}`;
+    },
+  },
 };
 </script>

@@ -2,9 +2,7 @@
   <div class="bg-primaryWhite">
     <wrapper>
       <div class="lg:w-1/2 w-full flex flex-col items-start justify-center">
-        <section-title>
-          We Elevate the Beauty of Your Home
-        </section-title>
+        <section-title> We Elevate the Beauty of Your Home </section-title>
         <subtitle>
           We created our own Digital Transformation Methodology
         </subtitle>
