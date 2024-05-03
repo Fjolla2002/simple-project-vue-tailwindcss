@@ -1,11 +1,12 @@
 <template>
-  <div class="flex flex-col items-start justify-center">
+  <div class="flex flex-col items-start justify-center hover:shadow-lg hover:shadow-paragraphGray transition-all duration-300 ease-in-out">
     <img
       :src="image"
       alt="service"
-      class="w-full lg:h-[330px] h-[330px] object-cover"
+      class="w-full lg:h-[330px] h-[330px] object-cover hover:grayscale-[50%]"
     />
-    <h5 class="text-2xl text-primaryBlack font-ubuntu font-bold my-8">
+    <div class="p-8">
+      <h5 class="text-2xl text-primaryBlack font-ubuntu font-bold mb-8">
       {{ title }}
     </h5>
     <p class="text-base text-primaryBlack font-openSans mb-12">{{ desc }}</p>
@@ -15,6 +16,7 @@
     >
       <font-awesome-icon icon="arrow-right" class="text-2xl" />
     </router-link>
+    </div>
   </div>
 </template>
 

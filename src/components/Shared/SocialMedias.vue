@@ -5,15 +5,15 @@
   >
     <font-awesome-icon
       :icon="['fab', 'facebook-f']"
-      class="cursor-pointer hover:text-secondaryGray hover:scale-105 transition-all duration-300 ease-in-out"
+      class="cursor-pointer hover:text-secondaryGray hover:scale-125 transition-all duration-300 ease-in-out"
     />
     <font-awesome-icon
       :icon="['fab', 'twitter']"
-      class="cursor-pointer hover:text-secondaryGray hover:scale-105 transition-all duration-300 ease-in-out"
+      class="cursor-pointer hover:text-secondaryGray hover:scale-125 transition-all duration-300 ease-in-out"
     />
     <font-awesome-icon
       :icon="['fab', 'instagram']"
-      class="cursor-pointer hover:text-secondaryGray hover:scale-105 transition-all duration-300 ease-in-out"
+      class="cursor-pointer hover:text-secondaryGray hover:scale-125 transition-all duration-300 ease-in-out"
     />
   </div>
 </template>

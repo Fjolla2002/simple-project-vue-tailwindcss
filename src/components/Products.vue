@@ -13,7 +13,7 @@
             <img
               :src="product.image"
               alt="product"
-              class="w-full h-full hover:grayscale-[50%] transition-all duration-300 ease-in-out cursor-pointer"
+              class="w-full h-full hover:grayscale-[50%] hover:scale-95 hover:rounded-lg transition-all duration-300 ease-in-out cursor-pointer"
             />
           </div>
         </div>
