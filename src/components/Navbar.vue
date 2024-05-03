@@ -27,11 +27,19 @@
             @click="toggleMenu"
           />
           <ul class="text-center lg:text-xl text-2xl mt-12">
-            <li class="my-2 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out"><a href="/" @click="toggleMenu">Home</a></li>
-            <li class="my-4 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out">
+            <li
+              class="my-2 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out"
+            >
+              <a href="/" @click="toggleMenu">Home</a>
+            </li>
+            <li
+              class="my-4 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out"
+            >
               <a href="/#statistics" @click="toggleMenu">About</a>
             </li>
-            <li class="my-2 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out">
+            <li
+              class="my-2 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out"
+            >
               <a href="/#contact" @click="toggleMenu">Contact</a>
             </li>
           </ul>
