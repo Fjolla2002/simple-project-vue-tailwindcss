@@ -42,7 +42,9 @@
               SUBMIT
             </button>
           </div>
-          <social-medias :color="socialMediasColor" />
+          <div class="w-1/2">
+            <social-medias :color="socialMediasColor" />
+          </div>
         </div>
       </div>
     </wrapper>
