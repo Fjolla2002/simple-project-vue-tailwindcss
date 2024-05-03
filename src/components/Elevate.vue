@@ -21,9 +21,9 @@
           <span class="ml-2">Chat Now</span>
         </a>
       </div>
-      <div class="lg:w-1/2 w-full relative">
+      <div class="lg:w-1/2 w-full lg:px-0 md:px-28 relative">
         <div
-          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primaryGray lg:w-1/3 h-1/4 w-3/5 text-5xl flex items-center justify-center z-50"
+          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primaryGray lg:w-1/3 h-1/4 w-2/5 text-5xl flex items-center justify-center z-50"
         >
           <h3 class="font-montserrat text-center text-primaryBlack font-bold">
             30k
@@ -33,14 +33,14 @@
           <img
             src="@/assets/images/elevate1.jpeg"
             alt="elevate2"
-            class="lg:w-1/2 w-7/12 lg:h-80 object-cover cursor-pointer hover:scale-95 transition-all duration-300 ease-in-out"
+            class="lg:w-1/2 w-7/12 h-80 object-cover cursor-pointer hover:scale-95 transition-all duration-300 ease-in-out"
           />
         </div>
         <div class="flex justify-start">
           <img
             src="@/assets/images/elevate2.jpeg"
             alt="elevate2"
-            class="lg:w-1/2 w-7/12 lg:h-80 object-cover cursor-pointer hover:scale-95 transition-all duration-300 ease-in-out"
+            class="lg:w-1/2 w-7/12 h-80 object-cover cursor-pointer hover:scale-95 transition-all duration-300 ease-in-out"
           />
         </div>
       </div>
