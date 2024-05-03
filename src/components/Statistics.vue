@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primaryWhite" id="statistics">
+  <div class="bg-primaryWhite">
     <wrapper>
       <div class="lg:w-1/2 w-full">
         <div class="flex-col items-center justify-start">

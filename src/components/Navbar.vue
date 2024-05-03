@@ -30,17 +30,17 @@
             <li
               class="my-2 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out"
             >
-              <a href="/" @click="toggleMenu">Home</a>
+              <router-link to="/" @click="toggleMenu">Home</router-link>
             </li>
             <li
               class="my-4 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out"
             >
-              <a href="/#statistics" @click="toggleMenu">About</a>
+              <router-link to="/" @click="toggleMenu">About</router-link>
             </li>
             <li
               class="my-2 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out"
             >
-              <a href="/#contact" @click="toggleMenu">Contact</a>
+              <router-link to="/" @click="toggleMenu">Contact</router-link>
             </li>
           </ul>
         </div>
