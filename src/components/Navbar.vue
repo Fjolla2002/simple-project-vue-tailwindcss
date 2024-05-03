@@ -1,5 +1,7 @@
 <template>
-  <div class="w-full mx-auto bg-primaryWhite py-6 fixed shadow-sm shadow-primaryGray z-50">
+  <div
+    class="w-full mx-auto bg-primaryWhite py-6 fixed shadow-sm shadow-primaryGray z-50"
+  >
     <container>
       <div class="flex items-center justify-center">
         <font-awesome-icon
@@ -35,12 +37,14 @@
             <li
               class="my-4 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out"
             >
-              <router-link to="/" @click="toggleMenu">About</router-link>
+              <router-link to="/about" @click="toggleMenu">About</router-link>
             </li>
             <li
               class="my-2 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out"
             >
-              <router-link to="/" @click="toggleMenu">Contact</router-link>
+              <router-link to="/contact" @click="toggleMenu"
+                >Contact</router-link
+              >
             </li>
           </ul>
         </div>
