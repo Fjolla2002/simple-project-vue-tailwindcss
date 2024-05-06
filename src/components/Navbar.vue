@@ -2,15 +2,15 @@
   <div
     class="w-full mx-auto bg-primaryWhite py-6 fixed shadow-sm shadow-primaryGray z-50"
   >
-    <container>
-      <div class="flex items-center justify-center">
+    <!-- <container> -->
+      <div class="flex items-center justify-end pr-8">
         <font-awesome-icon
           icon="bars"
           class="text-2xl cursor-pointer text-primaryBlack hover:text-primaryGray transition-all duration-300 ease-in-out"
           @click="toggleMenu"
         />
       </div>
-    </container>
+    <!-- </container> -->
     <div
       class="w-full min-h-screen absolute top-0 left-0 z-50 bg-black/[.7]"
       :class="{ hidden: !navbarVisible }"
@@ -20,12 +20,12 @@
         @click="toggleMenu"
       ></span>
       <div
-        class="absolute h-full lg:w-1/6 w-1/2 bg-secondaryBlack text-primaryWhite transition-all duration-300 ease-in-out"
+        class="absolute top-0 right-0 h-full lg:w-1/6 w-1/2 bg-secondaryBlack text-primaryWhite transition-all duration-300 ease-in-out"
       >
         <div class="relative flex flex-col items-center p-8">
           <font-awesome-icon
             icon="x"
-            class="absolute top-0 right-0 p-8 text-2xl cursor-pointer text-primaryWhite hover:text-primaryGray"
+            class="absolute top-0 left-0 p-8 text-2xl cursor-pointer text-primaryWhite hover:text-primaryGray"
             @click="toggleMenu"
           />
           <ul class="text-center lg:text-xl text-2xl mt-12">
@@ -74,7 +74,7 @@ export default {
   methods: {
     toggleMenu() {
       this.navbarVisible = !this.navbarVisible;
-      document.body.style.overflow = this.navbarVisible ? "hidden" : "auto";
+      // document.body.style.overflow = this.navbarVisible ? "hidden" : "auto";
     },
   },
 };
