@@ -38,22 +38,23 @@
                 v-model="inputValue"
                 class="px-4 py-2 w-full outline-none rounded-md bg-transparent border-2 border-secondaryGray focus:border-paragraphGray transition-all duration-300 ease-in-out"
                 @focus="isFocused = true"
-                @blur="(isFocused = false), (inputValue = '')"
+                @blur="(isFocused = false)"
               />
               <span
-                class="absolute left-0 px-4 py-2 transition-all duration-300 ease-in-out"
+                class="absolute left-0 px-4 py-1 transition-all duration-300 ease-in-out"
                 :class="{
-                  'top-0': !isFocused,
-                  '-top-5': isFocused,
-                  'scale-90': isFocused,
-                  'bg-backgroundGray': isFocused,
-                  'text-paragraphGray': isFocused,
-                  'text-primaryGray': !isFocused,
+                  'top-1': (!isFocused && inputValue == ''),
+                  '-top-5': (isFocused || inputValue !== ''),
+                  'scale-90': (isFocused || inputValue !== ''),
+                  'bg-backgroundGray': (isFocused || inputValue !== ''),
+                  'text-paragraphGray': (isFocused || inputValue !== ''),
+                  'text-primaryGray': (!isFocused && inputValue == ''),
                 }"
                 >Enter your name</span
               >
             </div>
             <button
+              @click="inputValue = ''"
               class="bg-primaryGray py-3 rounded-md w-full h-full text-base border-none uppercase font-bold font-openSans text-primaryBlack hover:bg-secondaryGray transition-all duration-300 ease-in-out lg:w-1/4 lg:mt-0 mt-4"
             >
               SUBMIT
