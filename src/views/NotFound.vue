@@ -13,11 +13,15 @@
             >Oops! The page you are looking for does not exist.</subtitle
           >
         </div>
-        <router-link
-          to="/"
-          class="mt-12 border-2 border-primaryBlack rounded-3xl px-6 py-2 hover:scale-105 transition-all duration-200 ease-in-out"
-          >Back to Home</router-link
-        >
+        <router-link to="/" class="mt-12">
+          <rounded-button
+            :color="btnTextColor"
+            :background="btnBackground"
+            :hoverBackground="btnHoverBackground"
+          >
+            Back to home
+          </rounded-button>
+        </router-link>
       </div>
     </container>
   </div>
@@ -30,6 +34,7 @@ import { faFaceFrown } from "@fortawesome/free-solid-svg-icons";
 import SectionTitle from "../components/Shared/Title.vue";
 import Subtitle from "../components/Shared/Subtitle.vue";
 import Container from "../components/Shared/Container.vue";
+import RoundedButton from "../components/Shared/RoundedButton.vue";
 
 library.add(faFaceFrown);
 
@@ -39,6 +44,14 @@ export default {
     SectionTitle,
     Subtitle,
     Container,
+    RoundedButton,
+  },
+  data() {
+    return {
+      btnTextColor: "primaryBlack",
+      btnBackground: "secondaryGray",
+      btnHoverBackground: "primaryGray",
+    };
   },
 };
 </script>

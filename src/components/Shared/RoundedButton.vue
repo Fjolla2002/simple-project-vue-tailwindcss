@@ -27,6 +27,7 @@ export default {
       backgroundVariants: {
         primaryWhite: "bg-primaryWhite",
         backgroundGray: "bg-backgroundGray",
+        secondaryGray: "bg-secondaryGray",
       },
       hoverBackgroundVariants: {
         primaryGray: "hover:bg-primaryGray",
