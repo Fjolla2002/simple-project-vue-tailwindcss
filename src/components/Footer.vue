@@ -29,7 +29,7 @@
             anim id est laborum.
           </p>
           <div
-            class="w-full mt-8 h-11 flex flex-col items-center justify-start lg:flex-row"
+            class="w-full mt-8 h-30 flex flex-col items-center justify-start lg:flex-row lg:h-11"
           >
             <div class="relative w-full h-full lg:w-3/4">
               <input
