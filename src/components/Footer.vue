@@ -29,9 +29,9 @@
             anim id est laborum.
           </p>
           <div
-            class="w-full mt-8 flex flex-col items-center justify-start lg:flex-row"
+            class="w-full mt-8 h-11 flex flex-col items-center justify-start lg:flex-row"
           >
-            <div class="relative w-full lg:w-3/4">
+            <div class="relative w-full h-full lg:w-3/4">
               <input
                 type="text"
                 placeholder=""
@@ -54,7 +54,7 @@
               >
             </div>
             <button
-              class="bg-primaryGray py-2 w-full text-base border-none uppercase font-bold font-openSans text-primaryBlack hover:bg-secondaryGray transition-all duration-300 ease-in-out lg:w-1/4 lg:mt-0 mt-4"
+              class="bg-primaryGray py-3 rounded-md w-full h-full text-base border-none uppercase font-bold font-openSans text-primaryBlack hover:bg-secondaryGray transition-all duration-300 ease-in-out lg:w-1/4 lg:mt-0 mt-4"
             >
               SUBMIT
             </button>
