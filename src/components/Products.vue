@@ -6,15 +6,14 @@
           class="w-full grid grid-cols-1 gap-4 lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-2"
         >
           <div
-            class="w-full h-[300px]"
+            class="w-full h-[350px]"
             v-for="(product, index) in products"
             :key="index"
           >
-            <img
-              :src="product.image"
-              alt="product"
-              class="w-full h-full hover:grayscale-[50%] hover:scale-95 hover:rounded-lg transition-all duration-300 ease-in-out cursor-pointer"
-            />
+            <div
+              class="w-full h-full bg-cover bg-center bg-no-repeat hover:grayscale-[50%] hover:scale-95 hover:rounded-lg transition-all duration-300 ease-in-out cursor-pointer"
+              :style="{ backgroundImage: 'url(' + product.image + ')'}"
+            ></div>
           </div>
         </div>
         <div
