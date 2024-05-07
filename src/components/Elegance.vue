@@ -2,15 +2,15 @@
   <div class="bg-backgroundGray">
     <container>
       <div class="py-32 h-full flex flex-col">
-        <div class="lg:w-3/4 w-full flex justify-start">
+        <div class="w-full flex justify-start lg:w-3/4">
           <section-title>
             We dwelling elegance do shutters appetite yourself diverted
           </section-title>
         </div>
         <div
-          class="w-full mt-8 flex lg:justify-end justify-start font-openSans"
+          class="w-full mt-8 flex justify-start font-openSans lg:justify-end"
         >
-          <div class="lg:w-1/2 w-full">
+          <div class="w-full lg:w-1/2">
             <p class="text-primaryBlack text-justify text-base leading-7">
               Article evident arrived express highest men did boy. Mistress
               sensible entirely am so. Quick can manor smart money hopes worth

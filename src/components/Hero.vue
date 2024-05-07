@@ -2,17 +2,17 @@
   <div class="bg-cover" :style="{ backgroundImage: `url(${backgroundImage})` }">
     <container>
       <div
-        class="lg:h-[900px] h-[1020px] flex flex-col justify-end items-start pb-20"
+        class="h-[1020px] flex flex-col justify-end items-start pb-20 lg:h-[900px]"
       >
         <h1
-          class="text-primaryWhite lg:text-6xl text-5xl font-bold font-ubuntu mb-2"
+          class="text-primaryWhite text-5xl font-bold font-ubuntu mb-2 lg:text-6xl"
         >
           Rent your home. <br />
           Own your life. <br />
           Start of something great.
         </h1>
         <p
-          class="mt-12 text-primaryWhite text-lg lg:w-1/3 w-full font-openSans"
+          class="mt-12 text-primaryWhite text-lg w-full font-openSans lg:w-1/3"
         >
           We combine expertise across disciplines, locations, and sectors. The
           practice is an active thought leader in social practice, developing

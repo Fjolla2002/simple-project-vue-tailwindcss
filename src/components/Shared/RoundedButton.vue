@@ -1,6 +1,6 @@
 <template>
   <button
-    class="mt-12 lg:px-14 px-8 py-4 rounded-full tracking-wider text-base border-none uppercase font-bold font-openSans hover:scale-95 transition-all duration-300 ease-in-out"
+    class="mt-12 px-8 py-4 rounded-full tracking-wider text-base border-none uppercase font-bold font-openSans hover:scale-95 transition-all duration-300 ease-in-out lg:px-14"
     :class="[
       colorVariants[color],
       backgroundVariants[background],

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primaryWhite">
     <wrapper>
-      <div class="lg:w-1/2 w-full flex flex-col items-start justify-center">
+      <div class="w-full flex flex-col items-start justify-center lg:w-1/2">
         <section-title> We Elevate the Beauty of Your Home </section-title>
         <subtitle>
           We created our own Digital Transformation Methodology
@@ -21,9 +21,9 @@
           <span class="ml-2">Chat Now</span>
         </a>
       </div>
-      <div class="lg:w-1/2 w-full lg:px-0 md:px-28 relative">
+      <div class="w-full relative lg:w-1/2 lg:px-0 md:px-28">
         <div
-          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primaryGray lg:w-1/3 h-1/4 w-2/5 text-5xl flex items-center justify-center z-40"
+          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primaryGray h-1/4 w-2/5 text-5xl flex items-center justify-center z-40 lg:w-1/3"
         >
           <h3 class="font-montserrat text-center text-primaryBlack font-bold">
             30k
@@ -33,14 +33,14 @@
           <img
             src="@/assets/images/elevate1.jpeg"
             alt="elevate2"
-            class="lg:w-1/2 w-7/12 h-80 object-cover cursor-pointer hover:scale-95 transition-all duration-300 ease-in-out"
+            class="w-7/12 h-80 object-cover cursor-pointer hover:scale-95 transition-all duration-300 ease-in-out lg:w-1/2"
           />
         </div>
         <div class="flex justify-start">
           <img
             src="@/assets/images/elevate2.jpeg"
             alt="elevate2"
-            class="lg:w-1/2 w-7/12 h-80 object-cover cursor-pointer hover:scale-95 transition-all duration-300 ease-in-out"
+            class="w-7/12 h-80 object-cover cursor-pointer hover:scale-95 transition-all duration-300 ease-in-out lg:w-1/2"
           />
         </div>
       </div>

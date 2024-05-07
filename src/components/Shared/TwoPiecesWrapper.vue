@@ -2,7 +2,7 @@
   <div class="w-full">
     <container>
       <div
-        class="flex lg:flex-row flex-col justify-between lg:gap-20 items-center py-32"
+        class="flex flex-col justify-between items-center py-32 lg:flex-row lg:gap-20"
       >
         <slot></slot>
       </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primaryWhite">
     <wrapper>
-      <div class="lg:w-1/2 w-full">
+      <div class="w-full lg:w-1/2">
         <div class="flex-col items-center justify-start">
           <section-title>
             We are the best agency to improve your deals
@@ -18,9 +18,9 @@
           </p>
         </div>
       </div>
-      <div class="lg:w-1/2 w-4/5 lg:mt-0 mt-20">
+      <div class="w-4/5 lg:w-1/2 lg:mt-0 mt-20">
         <div
-          class="h-full bg-backgroundGray grid lg:grid-cols-2 lg:grid-rows-2 grid-cols-1 grid-rows-4"
+          class="h-full bg-backgroundGray grid grid-cols-1 grid-rows-4 lg:grid-cols-2 lg:grid-rows-2"
         >
           <stat-card
             v-for="(stat, index) in stats"

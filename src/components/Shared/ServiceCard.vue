@@ -3,7 +3,7 @@
     <img
       :src="image"
       alt="service"
-      class="w-full lg:h-[330px] h-[330px] object-cover hover:grayscale-[50%]"
+      class="w-full h-[330px] object-cover hover:grayscale-[50%] lg:h-[330px]"
     />
     <div class="p-8">
       <h5 class="text-2xl text-primaryBlack font-ubuntu font-bold mb-8">

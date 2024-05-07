@@ -3,7 +3,7 @@
     <container>
       <div class="py-32 flex flex-col items-center justify-center">
         <div
-          class="w-full grid lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-2 grid-cols-1 gap-4"
+          class="w-full grid grid-cols-1 gap-4 lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-2"
         >
           <div
             class="w-full h-[300px]"
@@ -18,13 +18,13 @@
           </div>
         </div>
         <div
-          class="lg:w-1/2 md:w-3/5 w-full p-12 flex flex-col items-center justify-center"
+          class="w-full p-12 flex flex-col items-center justify-center lg:w-1/2 md:w-3/5"
         >
           <p class="text-center text-base text-primaryBlack font-openSans">
             Sample text. Click to select the text box. Click again or double
             click to start editing the text.
           </p>
-          <div class="lg:w-full w-1/2 flex items-center justify-center">
+          <div class="w-1/2 flex items-center justify-center lg:w-full">
             <SocialMedias :color="socialMeadiasColor" />
           </div>
         </div>

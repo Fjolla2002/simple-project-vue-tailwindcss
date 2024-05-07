@@ -20,7 +20,7 @@
         @click="toggleMenu"
       ></span>
       <div
-        class="absolute top-0 right-0 h-full lg:w-1/6 w-1/2 bg-secondaryBlack text-primaryWhite transition-all duration-300 ease-in-out"
+        class="absolute top-0 right-0 h-full w-1/2 bg-secondaryBlack text-primaryWhite transition-all duration-300 ease-in-out lg:w-1/6"
       >
         <div class="relative flex flex-col items-center p-8">
           <font-awesome-icon
@@ -28,7 +28,7 @@
             class="absolute top-0 left-0 p-8 text-2xl cursor-pointer text-primaryWhite hover:text-primaryGray"
             @click="toggleMenu"
           />
-          <ul class="text-center lg:text-xl text-2xl mt-12">
+          <ul class="text-center text-2xl mt-12 lg:text-xl">
             <li
               class="my-2 hover:text-primaryGray hover:tracking-widest transition-all duration-300 ease-in-out"
             >

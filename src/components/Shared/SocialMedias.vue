@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center justify-between lg:w-2/5 w-full mt-8 text-2xl"
+    class="flex items-center justify-between w-full mt-8 text-2xl lg:w-2/5"
     :class="textColor"
   >
     <a href="https://facebook.com" target="_blank">

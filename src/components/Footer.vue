@@ -1,7 +1,7 @@
 <template>
   <div class="bg-backgroundGray">
     <wrapper>
-      <div class="lg:w-1/2 w-full">
+      <div class="w-full lg:w-1/2">
         <div class="flex flex-col items-start justify-start">
           <section-title>Contact Us</section-title>
           <p class="text-xl text-primaryBlack font-openSans mt-10">
@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-      <div class="lg:w-1/2 w-full lg:mt-0 mt-20">
+      <div class="w-full lg:w-1/2 lg:mt-0 mt-20">
         <div class="flex flex-col items-start justify-start">
           <section-title>Sign me up!</section-title>
           <p class="mt-8">
@@ -29,15 +29,15 @@
             anim id est laborum.
           </p>
           <div
-            class="w-full mt-8 flex lg:flex-row flex-col items-center justify-start"
+            class="w-full mt-8 flex flex-col items-center justify-start lg:flex-row"
           >
             <input
               type="text"
               placeholder="Enter your Name"
-              class="lg:w-3/4 px-4 py-2 w-full"
+              class="px-4 py-2 w-full lg:w-3/4"
             />
             <button
-              class="bg-primaryGray py-2 lg:w-1/4 w-full lg:mt-0 mt-4 text-base border-none uppercase font-bold font-openSans text-primaryBlack hover:bg-secondaryGray transition-all duration-300 ease-in-out"
+              class="bg-primaryGray py-2 w-full text-base border-none uppercase font-bold font-openSans text-primaryBlack hover:bg-secondaryGray transition-all duration-300 ease-in-out lg:w-1/4 lg:mt-0 mt-4 "
             >
               SUBMIT
             </button>
