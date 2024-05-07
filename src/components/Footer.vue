@@ -31,13 +31,30 @@
           <div
             class="w-full mt-8 flex flex-col items-center justify-start lg:flex-row"
           >
-            <input
-              type="text"
-              placeholder="Enter your Name"
-              class="px-4 py-2 w-full lg:w-3/4"
-            />
+            <div class="relative w-full lg:w-3/4">
+              <input
+                type="text"
+                placeholder=""
+                v-model="inputValue"
+                class="px-4 py-2 w-full outline-none rounded-md bg-transparent border-2 border-secondaryGray focus:border-paragraphGray transition-all duration-300 ease-in-out"
+                @focus="isFocused = true"
+                @blur="(isFocused = false), (inputValue = '')"
+              />
+              <span
+                class="absolute left-0 px-4 py-2 transition-all duration-300 ease-in-out"
+                :class="{
+                  'top-0': !isFocused,
+                  '-top-5': isFocused,
+                  'scale-90': isFocused,
+                  'bg-backgroundGray': isFocused,
+                  'text-paragraphGray': isFocused,
+                  'text-primaryGray': !isFocused,
+                }"
+                >Enter your name</span
+              >
+            </div>
             <button
-              class="bg-primaryGray py-2 w-full text-base border-none uppercase font-bold font-openSans text-primaryBlack hover:bg-secondaryGray transition-all duration-300 ease-in-out lg:w-1/4 lg:mt-0 mt-4 "
+              class="bg-primaryGray py-2 w-full text-base border-none uppercase font-bold font-openSans text-primaryBlack hover:bg-secondaryGray transition-all duration-300 ease-in-out lg:w-1/4 lg:mt-0 mt-4"
             >
               SUBMIT
             </button>
@@ -66,6 +83,8 @@ export default {
   data() {
     return {
       socialMediasColor: "primaryBlack",
+      isFocused: false,
+      inputValue: "",
     };
   },
 };
