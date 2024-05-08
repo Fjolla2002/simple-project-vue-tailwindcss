@@ -57,41 +57,45 @@ const data = {
       name: "Olivia Anderson",
       position: "Lead Developer",
       desc: "Olivia is a seasoned software engineer with a passion for creating innovative and efficient solutions to complex problems.",
-      image: profile1
+      image: profile1,
     },
     {
       name: "Ethan Martinez",
       position: "Marketing Manager",
       desc: "Ethan excels in crafting compelling marketing strategies and campaigns that resonate with our audience, driving brand visibility and engagement.",
-      image: profile2
+      image: profile2,
     },
     {
       name: "Maya Rodriguez",
       position: "UX/UI Designer",
       desc: "Maya is a creative and detail-oriented designer, dedicated to crafting seamless user experiences and visually stunning interfaces.",
-      image: profile1
+      image: profile1,
     },
     {
       name: "Alexander Carter",
       position: "Operations Manager",
       desc: "Alexander oversees our day-to-day operations, ensuring smooth-workflow and efficiency across the organization with a focus on continous improvement.",
-      image: profile2
+      image: profile2,
     },
   ],
   faq: [
     {
       question: "What services do you offer?",
-      answer: "We offer a comprehensive range of architectural services, including conceptual design, schematic design, design development, construction documentation, and construction administration. Additionally, we provide expertise in urban planning, interior design, sustainable design, and historic preservation."
+      answer:
+        "We offer a comprehensive range of architectural services, including conceptual design, schematic design, design development, construction documentation, and construction administration. Additionally, we provide expertise in urban planning, interior design, sustainable design, and historic preservation.",
     },
     {
-      question: "How do you collaborate with clients during the design process?",
-      answer: "We believe in a collaborative design process where the client's vision and feedback are integral. From the initial concept phase to finalizing details, we maintain open communication channels, actively seeking input and insights from our clients every step of the way. Through regular meetings, presentations, and design workshops, we ensure that the project evolves in alignment with the client's goals, preferences, and aspirations. This collaborative approach not only fosters a sense of ownership and satisfaction but also results in tailored solutions that uniquely reflect the client's vision."
+      question:
+        "How do you collaborate with clients during the design process?",
+      answer:
+        "We believe in a collaborative design process where the client's vision and feedback are integral. From the initial concept phase to finalizing details, we maintain open communication channels, actively seeking input and insights from our clients every step of the way. Through regular meetings, presentations, and design workshops, we ensure that the project evolves in alignment with the client's goals, preferences, and aspirations. This collaborative approach not only fosters a sense of ownership and satisfaction but also results in tailored solutions that uniquely reflect the client's vision.",
     },
     {
       question: "How do you handle project budgets and timelines?",
-      answer: "We understand the importance of staying within budget and meeting project deadlines. Our team carefully evaluates project requirements and collaborates closely with clients to establish realistic budgets and timelines from the outset. Throughout the design and construction process, we employ effective project management strategies to monitor progress, mitigate risks, and ensure timely delivery without compromising quality."
+      answer:
+        "We understand the importance of staying within budget and meeting project deadlines. Our team carefully evaluates project requirements and collaborates closely with clients to establish realistic budgets and timelines from the outset. Throughout the design and construction process, we employ effective project management strategies to monitor progress, mitigate risks, and ensure timely delivery without compromising quality.",
     },
-  ]
+  ],
 };
 
 export { data };
