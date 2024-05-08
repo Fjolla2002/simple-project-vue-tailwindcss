@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-backgroundGray">
+  <div class="bg-backgroundGray py-20">
     <container>
-      <div class="flex flex-col items-center justify-center pt-10">
+      <div class="flex flex-col items-center justify-center">
         <div class="w-full text-center lg:w-3/4">
           <section-title>Our Amazing Team</section-title>
           <subtitle>Get to know the faces behind our success.</subtitle>
