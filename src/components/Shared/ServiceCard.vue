@@ -1,10 +1,9 @@
 <template>
   <div class="flex flex-col items-start justify-center hover:shadow-lg hover:shadow-paragraphGray transition-all duration-300 ease-in-out">
-    <img
-      :src="image"
-      alt="service"
-      class="w-full h-[330px] object-cover hover:grayscale-[50%] lg:h-[330px]"
-    />
+    <div
+      class="w-full h-[430px] bg-cover bg-center bg-no-repeat object-cover hover:grayscale-[50%] xlg:h-[390px]"
+      :style="{ backgroundImage: 'url(' + image + ')'}"
+    ></div>
     <div class="p-8">
       <h5 class="text-2xl text-primaryBlack font-ubuntu font-bold mb-8">
       {{ title }}

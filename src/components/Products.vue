@@ -3,7 +3,7 @@
     <container>
       <div class="py-32 flex flex-col items-center justify-center">
         <div
-          class="w-full grid grid-cols-1 gap-4 lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-2"
+          class="w-full grid grid-cols-1 gap-4 lg:grid-cols-4 md:grid-rows-2 sm:grid-cols-2"
         >
           <div
             class="w-full h-[350px]"

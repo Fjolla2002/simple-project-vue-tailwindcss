@@ -41,7 +41,7 @@
                 @blur="(isFocused = false)"
               />
               <span
-                class="absolute left-0 px-4 py-1 transition-all duration-300 ease-in-out"
+                class="absolute left-0 px-4 py-1 pointer-events-none transition-all duration-300 ease-in-out"
                 :class="{
                   'top-1': (!isFocused && inputValue == ''),
                   '-top-5': (isFocused || inputValue !== ''),

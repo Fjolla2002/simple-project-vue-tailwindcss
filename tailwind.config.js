@@ -19,6 +19,12 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
+      screens: {
+        'sm': '425px',
+        'md': '768px',
+        'lg': '1024px',
+        'xlg': '1440px',
+      },
     },
   },
   plugins: [],
