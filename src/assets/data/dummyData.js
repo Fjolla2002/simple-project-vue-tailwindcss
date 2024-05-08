@@ -50,6 +50,28 @@ const data = {
       text: "Sample text. Click to select the text box. Click again or double click to start editing the text.",
     },
   ],
+  team: [
+    {
+      name: "Olivia Anderson",
+      position: "Lead Developer",
+      desc: "Olivia is a seasoned software engineer with a passion for creating innovative and efficient solutions to complex problems."
+    },
+    {
+      name: "Ethan Martinez",
+      position: "Marketing Manager",
+      desc: "Ethan excels in crafting compelling marketing strategies and campaigns that resonate with our audience, driving brand visibility and engagement."
+    },
+    {
+      name: "Maya Rodriguez",
+      position: "UX/UI Designer",
+      desc: "Maya is a creative and detail-oriented designer, dedicated to crafting seamless user experiences and visually stunning interfaces."
+    },
+    {
+      name: "Alexander Carter",
+      position: "Operations Manager",
+      desc: "Alexander oversees our day-to-day operations, ensuring smooth-workflow and efficiency across the organization with a focus on continous improvement."
+    },
+  ]
 };
 
 export { data };
